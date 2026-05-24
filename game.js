@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = "cyber-bonsai-daily-v4";
   const MAX_CLICKS = 6; /* 6 次点击，7 张生长图（含 background） */
-  const COOLDOWN_MS = 3 * 60 * 60 * 1000; /* 心情点击冷却：3 小时 */
+  const COOLDOWN_MS = 0; /* 无冷却；上线可改回 3 * 60 * 60 * 1000 */
   const WILT_MS = 6 * 60 * 60 * 1000;
   const DEATH_MS = 5 * 24 * 60 * 60 * 1000;
   const SHELF_MAX = 5;
